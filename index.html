@@ -7,7 +7,9 @@
   <meta name="description" content="Automated reports & dashboards for small businesses. Vulpes Chartarum transforms your data into clear, recurring reports.">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="min-h-screen bg-neutral-50 text-neutral-900">
+  <!-- HEADER -->
   <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <div class="flex items-center gap-2">
@@ -26,13 +28,20 @@
     </div>
   </header>
 
+  <!-- HERO -->
   <section class="pt-16 pb-10">
     <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-10 items-center">
       <div>
-        <h1 class="text-4xl md:text-5xl font-semibold leading-tight">Automated reports & dashboards for small businesses</h1>
-        <p class="mt-4 text-neutral-600 text-lg">Stop wrestling spreadsheets. I turn your existing systems into clear, recurring reports so you can make decisions faster—without hiring a full data team.</p>
+        <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+          Automated reports & dashboards for small businesses
+        </h1>
+        <p class="mt-4 text-neutral-600 text-lg">
+          Stop wrestling spreadsheets. I turn your existing systems into clear, recurring reports so you can make decisions faster—without hiring a full data team.
+        </p>
         <div class="mt-6 flex flex-wrap items-center gap-3">
-          <a href="#contact"><button class="rounded-2xl bg-black text-white px-5 py-3">Get a free 20‑min consult</button></a>
+          <a href="#contact">
+            <button class="rounded-2xl bg-black text-white px-5 py-3">Get a free 20-min consult</button>
+          </a>
           <a href="#samples" class="text-sm underline underline-offset-4">See sample dashboards</a>
         </div>
       </div>
@@ -46,12 +55,65 @@
     </div>
   </section>
 
-  <section id="contact" class="py-16">
+  <!-- FEATURES -->
+  <section id="features" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Features</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        <div class="p-6 border rounded-2xl shadow-sm bg-neutral-50">
+          <h3 class="text-xl font-semibold mb-2">Custom SQL Queries</h3>
+          <p class="text-neutral-600">Powerful SQL commands and parameterized logic tailored to your ERP or business data for accurate reporting.</p>
+        </div>
+        <div class="p-6 border rounded-2xl shadow-sm bg-neutral-50">
+          <h3 class="text-xl font-semibold mb-2">Crystal & Power BI Dashboards</h3>
+          <p class="text-neutral-600">From simple tables to executive KPI dashboards — interactive visuals built for clarity and impact.</p>
+        </div>
+        <div class="p-6 border rounded-2xl shadow-sm bg-neutral-50">
+          <h3 class="text-xl font-semibold mb-2">Automation Ready</h3>
+          <p class="text-neutral-600">Set it and forget it — automate report refreshes and email delivery to keep your team updated daily or weekly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAMPLES -->
+  <section id="samples" class="py-16 bg-neutral-50">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-4">Samples</h2>
+      <p class="text-neutral-600 mb-8">Here’s a preview of the kinds of dashboards and reports I build.</p>
+      <img src="images/sample1.png" alt="Sample dashboard" class="mx-auto rounded-xl shadow-md w-full max-w-3xl" />
+      <p class="text-sm text-neutral-500 mt-4">Example: Power BI sales dashboard with automated SQL backend.</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-8">Pricing</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="p-6 border rounded-2xl shadow-sm bg-amber-50">
+          <h3 class="text-xl font-semibold">Starter Dashboard</h3>
+          <p class="text-neutral-600 mt-2">$300 – One Power BI or Crystal report setup with light automation options.</p>
+        </div>
+        <div class="p-6 border rounded-2xl shadow-sm bg-amber-100">
+          <h3 class="text-xl font-semibold">Business Suite</h3>
+          <p class="text-neutral-600 mt-2">$800 – Full dashboard package (3–4 visuals, filters, and automated data refresh).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 bg-neutral-50">
     <div class="max-w-3xl mx-auto px-4 text-center">
-      <h2 class="text-3xl font-semibold">Book a free 20‑minute consult</h2>
-      <p class="text-neutral-600 mt-2">Tell me your top 3 reporting headaches. I’ll outline a simple plan—no jargon, no commitments.</p>
+      <h2 class="text-3xl font-semibold">Book a free 20-minute consult</h2>
+      <p class="text-neutral-600 mt-2">
+        Tell me your top 3 reporting headaches. I’ll outline a simple plan—no jargon, no commitments.
+      </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-        <a href="mailto:sqlreports@proton.me"><button class="rounded-2xl bg-black text-white px-5 py-3">Email me</button></a>
+        <a href="mailto:sqlreports@proton.me">
+          <button class="rounded-2xl bg-black text-white px-5 py-3">Email me</button>
+        </a>
       </div>
       <p class="text-xs text-neutral-500 mt-6">© 2025 Vulpes Chartarum — Reports & Dashboards</p>
     </div>
